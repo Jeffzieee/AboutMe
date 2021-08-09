@@ -1,0 +1,15 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision d732c9e0c54f6828b5445da479043b8df8833772)
++++ app/src/main/res/layout/activity_main.xml	(date 1628521572545)
+@@ -14,5 +14,5 @@
+         android:layout_width="match_parent"
+         android:text="@string/jeffzieee"
+         android:textAlignment="center"
+-        android:textSize="30sp" />
++        android:textSize="@dimen/text_size"/>
+ </LinearLayout>
+\ No newline at end of file
