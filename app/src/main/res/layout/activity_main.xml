@@ -14,5 +14,5 @@
         android:layout_width="match_parent"
         android:text="@string/jeffzieee"
         android:textAlignment="center"
-        android:textSize="30sp" />
+        android:textSize="@dimen/text_size"/>
 </LinearLayout>
