@@ -2,25 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/paddStartEnd"
+    android:paddingEnd="@dimen/paddStartEnd"
     tools:context=".MainActivity">
 
 
     <TextView
         android:id="@+id/name_text"
+        style="@style/text_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/jeffzieee"
-        android:textAlignment="center"
-        style="@style/text_style" />
+        android:textAlignment="center" />
 
     <ImageView
         android:id="@+id/star_img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
+        android:layout_marginBottom="30sp"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
@@ -29,13 +32,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/scrollText"
-            style="@style/text_style"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="I am an Android Developer. \n \n Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. \n t was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008. It is free and open-source software; its source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License." />
+            <TextView
+                android:id="@+id/scrollText"
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/scroll_text" />
     </ScrollView>
-
 
 </LinearLayout>

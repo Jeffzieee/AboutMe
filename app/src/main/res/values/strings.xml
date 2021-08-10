@@ -2,4 +2,5 @@
     <string name="app_name">AboutMe</string>
     <string name="jeffzieee">Jeffzieee</string>
     <string name="yellow_star">Yellow Star</string>
+    <string name="scroll_text">I am an Android Developer. \n \n Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. \n \n It was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008. It is free and open-source software; its source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License.</string>
 </resources>
