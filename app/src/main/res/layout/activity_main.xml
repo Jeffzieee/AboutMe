@@ -20,9 +20,22 @@
         android:id="@+id/star_img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20sp"
+        android:layout_marginTop="16sp"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/scrollText"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="I am an Android Developer. \n \n Android is a mobile operating system based on a modified version of the Linux kernel and other open source software, designed primarily for touchscreen mobile devices such as smartphones and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. \n t was unveiled in November 2007, with the first commercial Android device, the HTC Dream, being launched in September 2008. It is free and open-source software; its source code is known as Android Open Source Project (AOSP), which is primarily licensed under the Apache License." />
+    </ScrollView>
 
 
 </LinearLayout>
