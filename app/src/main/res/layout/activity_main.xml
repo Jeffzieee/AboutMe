@@ -18,12 +18,20 @@
         android:text="@string/jeffzieee"
         android:textAlignment="center" />
 
+    <EditText
+        android:id='@+id/real_name'
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Real Name"
+        android:textAlignment="center" />
+
     <ImageView
         android:id="@+id/star_img"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16sp"
-        android:layout_marginBottom="30sp"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginBottom="@dimen/marginBottom"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
@@ -32,13 +40,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/scrollText"
-                style="@style/text_style"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:lineSpacingMultiplier="1.2"
-                android:text="@string/scroll_text" />
+        <TextView
+            android:id="@+id/scrollText"
+            style="@style/text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:fontFamily="@font/audiowide"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/scroll_text" />
     </ScrollView>
 
 </LinearLayout>

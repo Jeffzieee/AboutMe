@@ -4,4 +4,6 @@
     <dimen name="paddTop">20sp</dimen>
     <dimen name="paddStartEnd">16sp</dimen>
     <dimen name="layout_margin">16sp</dimen>
+    <dimen name="marginTop">16sp</dimen>
+    <dimen name="marginBottom">30sp</dimen>
 </resources>
