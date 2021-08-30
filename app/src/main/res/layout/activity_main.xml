@@ -2,6 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+   <data>
+       <variable
+           name="accName"
+           type="com.example.aboutme.RealName"/>
+   </data>
+
 <LinearLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,7 +23,7 @@
         style="@style/text_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/jeffzieee"
+        android:text="@={accName.name}"
         android:textAlignment="center" />
 
     <EditText
