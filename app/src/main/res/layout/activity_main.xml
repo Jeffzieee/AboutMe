@@ -23,8 +23,30 @@
         style="@style/text_style"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Real Name"
+        android:hint="@string/enter_real_name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName|text"
         android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/marginTop"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/btn_go"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/invisible_text"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/star_img"
