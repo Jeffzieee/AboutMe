@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             invisibleText.visibility = View.VISIBLE
             invalidateAll()
         }
-        //Code to hide the keyboard
+        //Code to hide the keyboard input
         val inputMethodMgr = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodMgr.hideSoftInputFromWindow(btnDone.windowToken,0)
     }
